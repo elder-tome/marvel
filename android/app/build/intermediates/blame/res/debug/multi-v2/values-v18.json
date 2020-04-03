@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/elder/Desktop/code/marvel/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/home/elder/.gradle/caches/transforms-2/files-2.1/064c0988e9205585655a7a37a15140dd/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}
