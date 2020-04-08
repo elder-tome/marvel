@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/elder/Desktop/code/marvel/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "/home/elder/Desktop/Code/Marvel/marvel/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/home/elder/.gradle/caches/transforms-2/files-2.1/064c0988e9205585655a7a37a15140dd/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "/home/elder/.gradle/caches/transforms-2/files-2.1/a00fafc6341e677267ca0fb19f158a7a/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

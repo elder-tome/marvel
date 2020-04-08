@@ -14,10 +14,18 @@ import java.util.ArrayList;
 import com.marvel.BuildConfig;
 import com.marvel.R;
 
+// @react-native-community/masked-view
+import org.reactnative.maskedview.RNCMaskedViewPackage;
 // lottie-react-native
 import com.airbnb.android.react.lottie.LottiePackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
+// react-native-reanimated
+import com.swmansion.reanimated.ReanimatedPackage;
+// react-native-safe-area-context
+import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
+// react-native-screens
+import com.swmansion.rnscreens.RNScreensPackage;
 // react-native-vector-icons
 import com.oblador.vectoricons.VectorIconsPackage;
 // react-native-webview
@@ -67,8 +75,12 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
+      new RNCMaskedViewPackage(),
       new LottiePackage(),
       new RNGestureHandlerPackage(),
+      new ReanimatedPackage(),
+      new SafeAreaContextPackage(),
+      new RNScreensPackage(),
       new VectorIconsPackage(),
       new RNCWebViewPackage()
     ));
