@@ -2,7 +2,7 @@ import React from 'react';
 import {  YellowBox, StatusBar } from 'react-native';
 import Routes from './routes'
 
-StatusBar.setBackgroundColor('#e51024')
+StatusBar.setBackgroundColor('#AA0C1B')
 
 YellowBox.ignoreWarnings([
     'ViewPagerAndroid'
